@@ -72,7 +72,7 @@ def update(frame):
 
 ani = FuncAnimation(fig, update, frames=len(solution.t), init_func=init, blit=True, interval=50)
 
-ani.save('Predator_prey0.gif', writer='pillow')
+ani.save('figs/Predator_prey0.gif', writer='pillow')
 
 
 plt.show()
